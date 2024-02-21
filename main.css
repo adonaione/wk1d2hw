@@ -3,7 +3,7 @@ body {
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
- }
+}
 
 .main_box {
     border: 3px solid whitesmoke;
@@ -12,6 +12,12 @@ body {
 
 #email_field {
     width: 250px;
+}
+
+.password_field {
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
 }
 
 #password_field {
@@ -39,7 +45,6 @@ footer {
     border-top: 3px solid whitesmoke;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
 .blue_buttons {
@@ -47,12 +52,15 @@ footer {
     padding-bottom: 30px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+#blue_buttons {
     display: flex;
-    align-content: space-around;
+    justify-content: space-evenly;
 }
 
 #continue_button {
-    background-color: yellow;
+    background-color: rgb(211, 184, 8);
 }
 
 #sign_up {
