@@ -7,19 +7,25 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+    <div class="logo">
+        <img src="https://picsum.photos/200?random=528" alt="">
+    </div>
+
     <div class="main_box">
         <h1>Sign In</h1>
 
         <div class="login_info">
-            <h2>Email (phone or mobile acccounts)</h2>
-            <textarea name="email" id="email">Enter Email</textarea>
-
-            <h3>Password 
-                <a href="url">Forgot Password</a>
-            </h3>
-            <textarea name="password" id="password">Enter Password</textarea>
-
-            <button id="Continue_button">Continue</button>
+            <div>
+                    <div>
+                        <label for="email_field">Email (phone or mobile accounts)</label>
+                    </div>
+                    <input id="email_field" name="email_field" type="text" placeholder="email">
+                    <div class="password_field">
+                        <label for="password_field">Password <a href="url">Forgot Password</a></label>
+                    </div>
+                    <input id="password_field" name="password_field" type="text" placeholder="password">
+            </div>
+            <button id="continue_button" type="submit">Continue</button>
 
             <ul>
                 <li><a href="url">Need Help?</a></li>
@@ -27,17 +33,21 @@
         </div>
     </div>
     <div class="new_member">
-        <h4>New To Amazon?</h4>
-        <button id="sign_up">Create Your Amazon Account</button>
+        <div>
+            <label for="sign_up">New To Amazon?</label>
+        </div>
+        <div>
+            <button id="sign_up">Create Your Amazon Account</button>
+        </div>
     </div>
 </body>
 <footer>
-    <div id="blue_buttons">
+    <div class="blue_buttons">
         <a href="url">Conditions of Use</a>
         <a href="url">Privacy Policy</a>
         <a href="url">Help</a>
     </div>
-    <div id="copywrite">
+    <div class="copywrite">
         &copy;1996-2020, Amazon.com, Inc. or its affiliates
     </div>
 </footer>
